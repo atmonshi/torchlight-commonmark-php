@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": "^7.2|^8.0",
-        "torchlight/torchlight-laravel": "^0.6.0",
+        "torchlight/torchlight-laravel": "dev-l12-compatibility",
         "league/commonmark": "^1.5|^2.0"
     },
     "require-dev": {
@@ -38,5 +38,11 @@
         }
     },
     "extra": {
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel-shift/torchlight-laravel.git"
+        }
+    ]
 }
